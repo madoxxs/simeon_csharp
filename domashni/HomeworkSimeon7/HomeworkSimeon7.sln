@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxNumber", "MaxNumber\MaxNumber.csproj", "{515D0125-142F-4DC7-8D98-4E09EBF00C7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Greeting", "Greeting\Greeting.csproj", "{0F15A6E8-7646-4ED6-B0BA-ED5A7ACB6DDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomGenerator", "RandomGenerator\RandomGenerator.csproj", "{B0040FA9-39AE-4FE0-B4B9-C0CF9FA7A558}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chetno_Nechetno", "Chetno_Nechetno\Chetno_Nechetno.csproj", "{8B6330BF-3655-43E8-84F3-20C8FE3F1BF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimetricNumbers", "SimetricNumbers\SimetricNumbers.csproj", "{B32640F2-A405-481A-AD81-3AB3C7D744AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facturiel", "Facturiel\Facturiel.csproj", "{A794C86A-A7A2-44BA-AB64-D8D43FFBEA53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Permutacii", "Permutacii\Permutacii.csproj", "{A9A6A1AE-032C-467B-B692-EA6928E19064}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{515D0125-142F-4DC7-8D98-4E09EBF00C7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{515D0125-142F-4DC7-8D98-4E09EBF00C7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{515D0125-142F-4DC7-8D98-4E09EBF00C7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{515D0125-142F-4DC7-8D98-4E09EBF00C7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F15A6E8-7646-4ED6-B0BA-ED5A7ACB6DDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F15A6E8-7646-4ED6-B0BA-ED5A7ACB6DDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F15A6E8-7646-4ED6-B0BA-ED5A7ACB6DDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F15A6E8-7646-4ED6-B0BA-ED5A7ACB6DDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0040FA9-39AE-4FE0-B4B9-C0CF9FA7A558}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0040FA9-39AE-4FE0-B4B9-C0CF9FA7A558}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0040FA9-39AE-4FE0-B4B9-C0CF9FA7A558}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0040FA9-39AE-4FE0-B4B9-C0CF9FA7A558}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B6330BF-3655-43E8-84F3-20C8FE3F1BF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B6330BF-3655-43E8-84F3-20C8FE3F1BF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B6330BF-3655-43E8-84F3-20C8FE3F1BF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B6330BF-3655-43E8-84F3-20C8FE3F1BF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B32640F2-A405-481A-AD81-3AB3C7D744AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B32640F2-A405-481A-AD81-3AB3C7D744AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B32640F2-A405-481A-AD81-3AB3C7D744AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B32640F2-A405-481A-AD81-3AB3C7D744AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A794C86A-A7A2-44BA-AB64-D8D43FFBEA53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A794C86A-A7A2-44BA-AB64-D8D43FFBEA53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A794C86A-A7A2-44BA-AB64-D8D43FFBEA53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A794C86A-A7A2-44BA-AB64-D8D43FFBEA53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9A6A1AE-032C-467B-B692-EA6928E19064}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9A6A1AE-032C-467B-B692-EA6928E19064}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9A6A1AE-032C-467B-B692-EA6928E19064}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9A6A1AE-032C-467B-B692-EA6928E19064}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
