@@ -11,26 +11,32 @@ namespace Zadacha2
     {
         static void Main(string[] args)
         {
-            
-            try{
-                StreamReader moni = new StreamReader("test.txt");
-                string line = moni.ReadLine();
-                while (line != null)
-                {
-                    if (line[line.Length - 1] != '.' || line[line.Length - 1] != '?' || line[line.Length - 1] != '!')
-                    {
-                        throw new SentenceNotCompletedException ("greshka v punkcuaciqta na izrechenieto");
 
-                    }
-                    line = moni.ReadLine();
-                }
-                moni.Close();
-            }
-            catch (FileNotFoundException e)
+            using (StreamReader moni = new StreamReader("test.txt"))
             {
-                Console.WriteLine("failat ne e nameren");
+                try
+                {
+                    string line = moni.ReadLine();
+                    while (line != null)
+                    {
+                        if (line[line.Length - 1] != '.' && line[line.Length - 1] != '?' && line[line.Length - 1] != '!')
+                        {
+                            
+                            throw new SentenceNotCompletedException("ne ste zavarshili izrechenie");
+                        }
+                        line = moni.ReadLine();
+                    }
+
+                }
+                catch (FileNotFoundException) 
+                {
+                    Console.WriteLine("failat ne e nameren");
+                }
+                catch(SentenceNotCompletedException e )
+                {
+                    Console.WriteLine(e.Message);
+                }
             }
-          
         }
     }
 }
